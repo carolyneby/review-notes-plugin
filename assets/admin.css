@@ -1,0 +1,27 @@
+.review-notes-badge {
+	display: inline-block;
+	padding: 2px 10px;
+	border-radius: 999px;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 1.6;
+	border: 1px solid transparent;
+}
+
+.review-notes-badge--needs_review {
+	background: #fbeaea;
+	color: #9a3b3b;
+	border-color: #e8c4c4;
+}
+
+.review-notes-badge--in_progress {
+	background: #fbf1e2;
+	color: #96650f;
+	border-color: #eddcb8;
+}
+
+.review-notes-badge--approved {
+	background: #e8f3ea;
+	color: #2f6f45;
+	border-color: #bfdcc6;
+}
